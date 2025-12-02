@@ -1,0 +1,16 @@
+{
+  "item.tubecraft.material.plastic_chunk": "Plastic Chunk",
+  "item.tubecraft.tube": "Tube",
+  "item.tubecraft.water_tube": "Water Tube",
+  "itemGroup.tubecraft_tab": "TubeCraft",
+  "block.tubecraft.plastic_gravel": "Plastic Gravel",
+  "block.tubecraft.tube_block": "Tube Block",
+
+  "tubecraft.configuration.title": "TubeCraft Configs",
+  "tubecraft.configuration.section.tubecraft.common.toml": "TubeCraft Configs",
+  "tubecraft.configuration.section.tubecraft.common.toml.title": "TubeCraft Configs",
+  "tubecraft.configuration.items": "Item List",
+  "tubecraft.configuration.logDirtBlock": "Log Dirt Block",
+  "tubecraft.configuration.magicNumberIntroduction": "Magic Number Text",
+  "tubecraft.configuration.magicNumber": "Magic Number"
+}

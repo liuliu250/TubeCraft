@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "tubecraft:block/tube_block" }
+  }
+}

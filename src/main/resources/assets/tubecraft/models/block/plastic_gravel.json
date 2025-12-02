@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "tubecraft:block/plastic_gravel"
+  }
+}
