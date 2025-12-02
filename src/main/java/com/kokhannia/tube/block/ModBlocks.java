@@ -17,10 +17,7 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(TubeCraft.MOD_ID);
 
     public static final DeferredBlock<Block> PLASTIC_GRAVEL = registerBlock("plastic_gravel",
-            () -> new Block(Block.Properties.of()
-                    .strength(0.6f, 0.7f)
-                    .sound(SoundType.GRAVEL)
-                    .requiresCorrectToolForDrops()
+            () -> new Block(Block.Properties.ofFullCopy(Blocks.GRAVEL)
                     ));
 
     public static final DeferredBlock<Block> TUBE_BLOCK = registerBlock("tube_block",
