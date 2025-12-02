@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "tube",
+  "key": {
+    "%": {
+      "tag": "minecraft:ingot"
+    },
+    "#": {
+      "item": "tubecraft:material/plastic_chunk"
+    }
+  },
+  "pattern": [
+    "###",
+    "% %",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "tubecraft:tube"
+  }
+}

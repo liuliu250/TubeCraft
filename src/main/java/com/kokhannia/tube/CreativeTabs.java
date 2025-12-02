@@ -23,6 +23,7 @@ public class CreativeTabs {
                         output.accept(ModItems.PLASTIC_CHUNK.get());
                         output.accept(ModItems.WATER_TUBE.get());
                         output.accept(ModItems.TUBE.get());
+                        output.accept(ModItems.HARDENED_TUBE.get());
                         output.accept(ModBlocks.PLASTIC_GRAVEL);
                         output.accept(ModBlocks.TUBE_BLOCK);
                     }))
