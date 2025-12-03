@@ -20,8 +20,16 @@ public class ModRecipesProvider extends RecipeProvider implements IConditionBuil
     }
 
     public static final List<ItemLike> PLASTIC_CHUNK = List.of(
-            ModBlocks.PLASTIC_GRAVEL.get().asItem()
+            ModBlocks.PLASTIC_GRAVEL
     );
+
+    @Override
+    protected void buildRecipes(RecipeOutput recipeOutput) {
+
+        oreSmelting(recipeOutput, PLASTIC_CHUNK, RecipeCategory.MISC, ModItems.PLASTIC_CHUNK, 0.7f, 200, "plastic_chunk");
+        oreBlasting(recipeOutput, PLASTIC_CHUNK, RecipeCategory.MISC, ModItems.PLASTIC_CHUNK, 0.7f, 100, "plastic_chunk");
+
+    }
 
     protected static void oreSmelting(
             RecipeOutput recipeOutput, List<ItemLike> ingredients, RecipeCategory category, ItemLike result, float experience, int cookingTime, String group
@@ -77,11 +85,4 @@ public class ModRecipesProvider extends RecipeProvider implements IConditionBuil
         }
     }
 
-    @Override
-    protected void buildRecipes(RecipeOutput recipeOutput) {
-
-        oreSmelting(recipeOutput, PLASTIC_CHUNK, RecipeCategory.MISC, ModItems.PLASTIC_CHUNK.get(), 0.7f, 200, "plastic_chunk");
-        oreBlasting(recipeOutput, PLASTIC_CHUNK, RecipeCategory.MISC, ModItems.PLASTIC_CHUNK.get(), 0.7f, 100, "plastic_chunk");
-
-    }
 }

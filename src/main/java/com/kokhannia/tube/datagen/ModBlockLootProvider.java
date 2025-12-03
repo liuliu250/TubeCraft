@@ -23,7 +23,7 @@ import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
 import java.util.Set;
 
 public class ModBlockLootProvider extends BlockLootSubProvider {
-    protected ModBlockLootProvider(HolderLookup.Provider registries) {
+    public ModBlockLootProvider(HolderLookup.Provider registries) {
         super(Set.of(), FeatureFlags.REGISTRY.allFlags(), registries);
     }
 

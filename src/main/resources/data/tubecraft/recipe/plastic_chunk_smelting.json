@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "group": "tube",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "ingredient": {
+      "item": "tubecraft:plastic_gravel"
+  },
+  "result": {
+    "id": "tubecraft:plastic_chunk"
+  }
+}
