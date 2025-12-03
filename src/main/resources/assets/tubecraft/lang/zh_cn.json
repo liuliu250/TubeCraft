@@ -4,5 +4,6 @@
   "item.tubecraft.water_tube": "水管",
   "itemGroup.tubecraft_tab": "水管工艺",
   "block.tubecraft.plastic_gravel": "塑料沙砾",
-  "block.tubecraft.tube_block": "管道方块"
+  "block.tubecraft.tube_block": "管道方块",
+  "item.tubecraft.tube.hardened_tube": "硬化管子"
 }

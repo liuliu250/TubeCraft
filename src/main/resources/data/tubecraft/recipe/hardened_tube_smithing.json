@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "base": {
+    "item": "tubecraft:tube"
+  },
+  "result": {
+    "count": 1,
+    "id": "tubecraft:tube/hardened_tube"
+  },
+  "template": {
+    "item": "tubecraft:tube"
+  }
+}

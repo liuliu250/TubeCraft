@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "tube",
+  "key": {
+    "#": {
+      "item": "tubecraft:tube/hardened_tube"
+    }
+  },
+  "pattern": [
+    " # ",
+    "# #",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "tubecraft:tube_block"
+  }
+}
