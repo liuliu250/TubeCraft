@@ -1,4 +1,0 @@
-// 1.21.1	2025-12-03T13:05:55.963172	Tags for minecraft:block mod id tubecraft
-2ab555f1a85bbd384a9a8c8d3c836fbfb56ab78c data/minecraft/tags/block/mineable/pickaxe.json
-fa50f05e0a582129ee920ec4b212de3d095a94aa data/minecraft/tags/block/mineable/shovel.json
-fa50f05e0a582129ee920ec4b212de3d095a94aa data/minecraft/tags/block/needs_stone_tool.json
