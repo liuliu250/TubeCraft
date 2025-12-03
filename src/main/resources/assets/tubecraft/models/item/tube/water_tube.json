@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tubecraft:item/tube"
+    "layer0": "tubecraft:item/tube/water_tube"
   }
 }

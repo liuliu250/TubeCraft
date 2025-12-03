@@ -5,9 +5,9 @@
   "cookingtime": 200,
   "experience": 0.7,
   "ingredient": {
-      "item": "tubecraft:water_tube"
+      "item": "tubecraft:tube/water_tube"
   },
   "result": {
-    "id": "tubecraft:tube"
+    "id": "tubecraft:tube/tube"
   }
 }

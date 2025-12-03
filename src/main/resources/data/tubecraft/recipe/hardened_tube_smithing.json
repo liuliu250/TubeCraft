@@ -11,6 +11,6 @@
     "id": "tubecraft:tube/hardened_tube"
   },
   "template": {
-    "item": "tubecraft:tube"
+    "item": "tubecraft:tube/tube"
   }
 }

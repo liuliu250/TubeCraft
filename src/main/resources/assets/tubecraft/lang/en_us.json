@@ -1,8 +1,8 @@
 {
   "itemGroup.tubecraft_tab": "TubeCraft",
   "item.tubecraft.material.plastic_chunk": "Plastic Chunk",
-  "item.tubecraft.tube": "Tube",
-  "item.tubecraft.water_tube": "Water Tube",
+  "item.tubecraft.tube.tube": "Tube",
+  "item.tubecraft.tube.water_tube": "Water Tube",
   "block.tubecraft.plastic_gravel": "Plastic Gravel",
   "block.tubecraft.tube_block": "Tube Block",
   "item.tubecraft.tube.hardened_tube": "Hardened Tube",
