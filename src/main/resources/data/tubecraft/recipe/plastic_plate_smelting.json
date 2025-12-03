@@ -1,13 +1,13 @@
 {
   "type": "minecraft:smelting",
   "category": "misc",
-  "group": "tube",
   "cookingtime": 200,
-  "experience": 1.7,
+  "experience": 0.7,
+  "group": "tube",
   "ingredient": {
-      "item": "tubecraft:plastic_chunk"
+    "item": "tubecraft:material/plastic_chunk"
   },
   "result": {
-    "id": "tubecraft:plastic_plate"
+    "id": "tubecraft:material/plastic_plate"
   }
 }
