@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_plastic_gravel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tubecraft:plastic_gravel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tubecraft:material/plastic_chunk_from_smelting_plastic_gravel"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_plastic_gravel"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tubecraft:material/plastic_chunk_from_smelting_plastic_gravel"
+    ]
+  }
+}
