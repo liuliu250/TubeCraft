@@ -1,12 +1,7 @@
 {
-  "item.tubecraft.material.plastic_chunk": "Plastic Chunk",
-  "item.tubecraft.tube": "Tube",
-  "item.tubecraft.water_tube": "Water Tube",
-  "itemGroup.tubecraft_tab": "TubeCraft",
-  "block.tubecraft.plastic_gravel": "Plastic Gravel",
-  "block.tubecraft.tube_block": "Tube Block",
-  "item.tubecraft.tube.hardened_tube": "Hardened Tube",
-  "item.tubecraft.material.plastic_plate": "Plastic Plate",
+  "itemGroup.tubecraft": "Example Mod Tab",
+  "block.tubecraft.example_block": "Example Block",
+  "item.tubecraft.example_item": "Example Item",
 
   "tubecraft.configuration.title": "TubeCraft Configs",
   "tubecraft.configuration.section.tubecraft.common.toml": "TubeCraft Configs",

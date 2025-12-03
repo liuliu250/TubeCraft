@@ -7,7 +7,7 @@
       "tag": "minecraft:ingot"
     },
     "#": {
-      "item": "tubecraft:material/plastic_chunk"
+      "item": "tubecraft:material/plastic_plate"
     }
   },
   "pattern": [
