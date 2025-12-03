@@ -26,6 +26,7 @@ public class CreativeTabs {
                         output.accept(ModItems.HARDENED_TUBE.get());
                         output.accept(ModBlocks.PLASTIC_GRAVEL);
                         output.accept(ModBlocks.TUBE_BLOCK);
+                        output.accept(ModItems.PLASTIC_PLATE.get());
                     }))
                     .build()
     );

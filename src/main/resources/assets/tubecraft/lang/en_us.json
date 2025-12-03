@@ -5,7 +5,8 @@
   "itemGroup.tubecraft_tab": "TubeCraft",
   "block.tubecraft.plastic_gravel": "Plastic Gravel",
   "block.tubecraft.tube_block": "Tube Block",
-    "item.tubecraft.tube.hardened_tube": "Hardened Tube",
+  "item.tubecraft.tube.hardened_tube": "Hardened Tube",
+  "item.tubecraft.material.plastic_plate": "Plastic Plate",
 
   "tubecraft.configuration.title": "TubeCraft Configs",
   "tubecraft.configuration.section.tubecraft.common.toml": "TubeCraft Configs",
