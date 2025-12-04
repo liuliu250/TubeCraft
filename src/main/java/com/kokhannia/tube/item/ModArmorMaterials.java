@@ -28,8 +28,8 @@ public class ModArmorMaterials {
             25,
             SoundEvents.ARMOR_EQUIP_TURTLE,
             4.0f,
-            0.5f,
-            () -> Ingredient.of(ModItems.HARDENED_TUBE.get())
+            0.2f,
+            () -> Ingredient.of(ModItems.HARDENED_TUBE)
     );
 
     private static Holder<ArmorMaterial> register(
