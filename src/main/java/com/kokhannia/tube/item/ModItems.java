@@ -15,6 +15,7 @@ public class ModItems {
     public static final DeferredItem<Item> TUBE = ITEMS.register("tube/tube", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> WATER_TUBE = ITEMS.register("tube/water_tube", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> HARDENED_TUBE = ITEMS.register("tube/hardened_tube", () -> new Item(new Item.Properties()));
+
     public static final DeferredItem<Item> PLASTIC_PLATE = ITEMS.register("material/plastic_plate", () -> new Item(new Item.Properties()));
 
     public static final DeferredItem<ArmorItem> TUBE_HELMET = ITEMS.register("armor/tube_helmet",

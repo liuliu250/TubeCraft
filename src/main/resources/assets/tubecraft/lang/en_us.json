@@ -7,9 +7,15 @@
   "block.tubecraft.tube_block": "Tube Block",
   "item.tubecraft.tube.hardened_tube": "Hardened Tube",
   "item.tubecraft.material.plastic_plate": "Plastic Plate",
-    "item.tubecraft.armor.tube_helmet": "Tube Helmet",
-    "item.tubecraft.armor.tube_chestplate": "Tube Chestplate",
-    "item.tubecraft.armor.tube_leggings": "Tube Leggings",
-    "item.tubecraft.armor.tube_boots": "Tube Boots",
-  "item.tubecraft.material.charcoal_calculi": "Charcoal Calculi"
+  "item.tubecraft.armor.tube_helmet": "Tube Helmet",
+  "item.tubecraft.armor.tube_chestplate": "Tube Chestplate",
+  "item.tubecraft.armor.tube_leggings": "Tube Leggings",
+  "item.tubecraft.armor.tube_boots": "Tube Boots",
+  "item.tubecraft.material.charcoal_calculi": "Charcoal Calculi",
+
+  "upgrade.tubecraft.plastic_upgrade": "Plastic Upgrade",
+  "item.tubecraft.smithing_template.plastic_upgrade.additions_slot_description": "Add Plastic Plate",
+  "item.tubecraft.smithing_template.plastic_upgrade.applies_to": "Tube",
+  "item.tubecraft.smithing_template.plastic_upgrade.base_slot_description": "Add ordinary tube",
+  "item.tubecraft.smithing_template.plastic_upgrade.ingredients": "Plastic Plate"
 }
