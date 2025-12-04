@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "tubecraft:armor/tube_helmet",
     "tubecraft:armor/tube_chestplate",

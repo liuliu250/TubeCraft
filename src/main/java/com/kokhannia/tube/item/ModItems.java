@@ -7,6 +7,8 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
+import static com.kokhannia.tube.item.ModSmithingTemplateItem.*;
+
 public class ModItems {
 
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(TubeCraft.MOD_ID);
@@ -16,7 +18,15 @@ public class ModItems {
     public static final DeferredItem<Item> WATER_TUBE = ITEMS.register("tube/water_tube", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> HARDENED_TUBE = ITEMS.register("tube/hardened_tube", () -> new Item(new Item.Properties()));
 
-    public static final DeferredItem<Item> PLASTIC_PLATE = ITEMS.register("material/plastic_plate", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PLASTIC_PLATE = ITEMS.register("material/plastic_plate", () -> new ModSmithingTemplateItem(
+            PLASTIC_UPGRADE_APPLIES_TO,
+            PLASTIC_UPGRADE_INGREDIENTS,
+            PLASTIC_UPGRADE,
+            PLASTIC_UPGRADE_BASE_SLOT_DESCRIPTION,
+            PLASTIC_UPGRADE_ADDITIONS_SLOT_DESCRIPTION,
+            ModSmithingTemplateItem.emptyUpgradeIconList(),
+            ModSmithingTemplateItem.emptyMaterialList()
+    ));
 
     public static final DeferredItem<ArmorItem> TUBE_HELMET = ITEMS.register("armor/tube_helmet",
             () -> new ArmorItem(ModArmorMaterials.TUBE, ArmorItem.Type.HELMET, new Item.Properties()

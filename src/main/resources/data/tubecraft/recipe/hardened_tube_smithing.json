@@ -11,6 +11,6 @@
     "id": "tubecraft:tube/hardened_tube"
   },
   "template": {
-    "item": "tubecraft:plastic_plate"
+    "item": "tubecraft:material/plastic_plate"
   }
 }
