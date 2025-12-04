@@ -6,5 +6,10 @@
   "block.tubecraft.plastic_gravel": "塑料沙砾",
   "block.tubecraft.tube_block": "管道方块",
   "item.tubecraft.tube.hardened_tube": "硬化管子",
-  "item.tubecraft.material.plastic_plate": "塑料板"
+  "item.tubecraft.material.plastic_plate": "塑料板",
+  "item.tubecraft.armor.tube_helmet": "管道头盔",
+  "item.tubecraft.armor.tube_chestplate": "管道胸甲",
+  "item.tubecraft.armor.tube_leggings": "管道护腿",
+  "item.tubecraft.armor.tube_boots": "管道靴子",
+  "item.tubecraft.material.charcoal_calculi": "木炭结石"
 }

@@ -27,6 +27,11 @@ public class CreativeTabs {
                         output.accept(ModItems.HARDENED_TUBE.get());
                         output.accept(ModBlocks.PLASTIC_GRAVEL);
                         output.accept(ModBlocks.TUBE_BLOCK);
+                        output.accept(ModItems.TUBE_HELMET.get());
+                        output.accept(ModItems.TUBE_CHESTPLATE.get());
+                        output.accept(ModItems.TUBE_LEGGINGS.get());
+                        output.accept(ModItems.TUBE_BOOTS.get());
+                        output.accept(ModItems.CHARCOAL_CALCULI.get());
                     }))
                     .build()
     );

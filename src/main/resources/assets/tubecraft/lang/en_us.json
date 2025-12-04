@@ -6,5 +6,10 @@
   "block.tubecraft.plastic_gravel": "Plastic Gravel",
   "block.tubecraft.tube_block": "Tube Block",
   "item.tubecraft.tube.hardened_tube": "Hardened Tube",
-  "item.tubecraft.material.plastic_plate": "Plastic Plate"
+  "item.tubecraft.material.plastic_plate": "Plastic Plate",
+    "item.tubecraft.armor.tube_helmet": "Tube Helmet",
+    "item.tubecraft.armor.tube_chestplate": "Tube Chestplate",
+    "item.tubecraft.armor.tube_leggings": "Tube Leggings",
+    "item.tubecraft.armor.tube_boots": "Tube Boots",
+  "item.tubecraft.material.charcoal_calculi": "Charcoal Calculi"
 }
