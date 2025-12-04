@@ -4,13 +4,13 @@
     "item": "minecraft:netherite_ingot"
   },
   "base": {
-    "item": "tubecraft:tube"
+    "item": "tubecraft:tube/tube"
   },
   "result": {
     "count": 1,
     "id": "tubecraft:tube/hardened_tube"
   },
   "template": {
-    "item": "tubecraft:tube/tube"
+    "item": "tubecraft:plastic_plate"
   }
 }

@@ -4,7 +4,7 @@
   "group": "tube_armor",
   "key": {
     "#": {
-      "tag": "tubecraft:tube/hardened_tubes"
+      "item": "tubecraft:tube/hardened_tube"
     }
   },
   "pattern": [

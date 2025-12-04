@@ -9,10 +9,11 @@
   },
   "pattern": [
     "###",
+    "# #",
     "# #"
   ],
   "result": {
     "count": 1,
-    "id": "tubecraft:armor/tube_helmet"
+    "id": "tubecraft:armor/tube_leggings"
   }
 }
