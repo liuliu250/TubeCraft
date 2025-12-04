@@ -32,5 +32,10 @@ public class ModItemTagsProvider extends ItemTagsProvider {
 //                .add(ModItems.TUBE.get())
 //                .add(ModItems.WATER_TUBE.get())
 //                .add(ModItems.HARDENED_TUBE.get());
+        tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.TUBE_HELMET.get())
+                .add(ModItems.TUBE_CHESTPLATE.get())
+                .add(ModItems.TUBE_LEGGINGS.get())
+                .add(ModItems.TUBE_BOOTS.get());
     }
 }

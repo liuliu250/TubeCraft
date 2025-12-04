@@ -30,8 +30,8 @@ public class ModBlockLootProvider extends BlockLootSubProvider {
     @Override
     protected void generate() {
         //samples
-//        dropSelf(ModBlocks.TUBE_BLOCK.get());
-//        add(ModBlocks.PLASTIC_GRAVEL.get(), block -> createOreDrops(ModBlocks.PLASTIC_GRAVEL.get(), ModItems.PLASTIC_CHUNK.get(), 1.0f, 3.0f));
+        dropSelf(ModBlocks.TUBE_BLOCK.get());
+        add(ModBlocks.PLASTIC_GRAVEL.get(), block -> createOreDrops(ModBlocks.PLASTIC_GRAVEL.get(), ModItems.PLASTIC_CHUNK.get(), 1.0f, 3.0f));
     }
 
     @Override

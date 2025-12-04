@@ -1,5 +1,6 @@
 package com.kokhannia.tube.item;
 
+import com.kokhannia.tube.TubeCraft;
 import net.minecraft.core.Holder;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -18,7 +19,7 @@ import java.util.function.Supplier;
 public class ModArmorMaterials {
 
     public static final Holder<ArmorMaterial> TUBE = register(
-            "tube",
+            TubeCraft.MOD_ID,
             new EnumMap<>(ArmorItem.Type.class) {{
                 put(ArmorItem.Type.HELMET, 4);
                 put(ArmorItem.Type.CHESTPLATE, 7);
@@ -41,7 +42,7 @@ public class ModArmorMaterials {
             float knockbackResistance,
             Supplier<Ingredient> repairIngredient
     ) {
-        List<ArmorMaterial.Layer> list = List.of(new ArmorMaterial.Layer(ResourceLocation.withDefaultNamespace(name)));
+        List<ArmorMaterial.Layer> list = List.of(new ArmorMaterial.Layer(ResourceLocation.fromNamespaceAndPath(name, "tube")));
         return register(name, defense, enchantmentValue, equipSound, toughness, knockbackResistance, repairIngredient, list);
     }
 
@@ -63,7 +64,7 @@ public class ModArmorMaterials {
 
         return Registry.registerForHolder(
                 BuiltInRegistries.ARMOR_MATERIAL,
-                ResourceLocation.withDefaultNamespace(name),
+                ResourceLocation.fromNamespaceAndPath(name, "tube"),
                 new ArmorMaterial(enummap, enchantmentValue, equipSound, repairIngridient, layers, toughness, knockbackResistance)
         );
     }
