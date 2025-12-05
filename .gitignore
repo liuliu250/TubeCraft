@@ -26,3 +26,5 @@ run-data
 repo
 .cache/
 导出.bat
+
+src/generated/resources/

@@ -2,11 +2,11 @@
   "type": "minecraft:ore",
   "config": {
     "discard_chance_on_air_exposure": 0.0,
-    "size": 24,
+    "size": 6,
     "targets": [
       {
         "state": {
-          "Name": "tubecraft:plastic_gravel"
+          "Name": "tubecraft:nether_plastic_gravel"
         },
         "target": {
           "predicate_type": "minecraft:tag_match",

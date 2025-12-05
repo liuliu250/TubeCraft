@@ -1,6 +1,0 @@
-{
-  "type": "neoforge:add_features",
-  "biomes": "#minecraft:is_nether",
-  "features": "tubecraft:nether_plastic_gravel_placed",
-  "step": "underground_ores"
-}
