@@ -21,10 +21,10 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
         //samples
 //        tag(BlockTags.MINEABLE_WITH_PICKAXE)
 //                .add(ModBlocks.TUBE_BLOCK.get());
-        tag(ModTags.NEEDS_TUBE_TOOL)
-                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
-        tag(ModTags.INCORRECT_FOR_TUBE_TOOL)
-                .addTag(BlockTags.INCORRECT_FOR_NETHERITE_TOOL)
-                .remove(ModTags.INCORRECT_FOR_TUBE_TOOL);
+//        tag(ModTags.NEEDS_TUBE_TOOL)
+//                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
+//        tag(ModTags.INCORRECT_FOR_TUBE_TOOL)
+//                .addTag(BlockTags.INCORRECT_FOR_NETHERITE_TOOL)
+//                .remove(ModTags.INCORRECT_FOR_TUBE_TOOL);
     }
 }

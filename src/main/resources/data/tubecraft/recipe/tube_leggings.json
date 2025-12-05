@@ -5,11 +5,14 @@
   "key": {
     "#": {
       "item": "tubecraft:tube/hardened_tube"
+    },
+    "?": {
+      "item": "tubecraft:material/charcoal_calculi"
     }
   },
   "pattern": [
     "###",
-    "# #",
+    "#?#",
     "# #"
   ],
   "result": {

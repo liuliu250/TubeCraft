@@ -34,21 +34,21 @@ public class ModItemTagsProvider extends ItemTagsProvider {
 //                .add(ModItems.TUBE.get())
 //                .add(ModItems.WATER_TUBE.get())
 //                .add(ModItems.HARDENED_TUBE.get());
-        tag(ItemTags.TRIMMABLE_ARMOR)
-                .add(ModItems.TUBE_HELMET.get())
-                .add(ModItems.TUBE_CHESTPLATE.get())
-                .add(ModItems.TUBE_LEGGINGS.get())
-                .add(ModItems.TUBE_BOOTS.get());
-        tag(ItemTags.SWORDS)
-                .add(ModItems.TUBE_SWORD.get());
-        tag(ItemTags.PICKAXES)
-                .add(ModItems.TUBE_PICKAXE.get());
-        tag(ItemTags.AXES)
-                .add(ModItems.TUBE_AXE.get());
-        tag(ItemTags.SHOVELS)
-                .add(ModItems.TUBE_SHOVEL.get());
-        tag(ItemTags.HOES)
-                .add(ModItems.TUBE_HOE.get());
+//        tag(ItemTags.TRIMMABLE_ARMOR)
+//                .add(ModItems.TUBE_HELMET.get())
+//                .add(ModItems.TUBE_CHESTPLATE.get())
+//                .add(ModItems.TUBE_LEGGINGS.get())
+//                .add(ModItems.TUBE_BOOTS.get());
+//        tag(ItemTags.SWORDS)
+//                .add(ModItems.TUBE_SWORD.get());
+//        tag(ItemTags.PICKAXES)
+//                .add(ModItems.TUBE_PICKAXE.get());
+//        tag(ItemTags.AXES)
+//                .add(ModItems.TUBE_AXE.get());
+//        tag(ItemTags.SHOVELS)
+//                .add(ModItems.TUBE_SHOVEL.get());
+//        tag(ItemTags.HOES)
+//                .add(ModItems.TUBE_HOE.get());
 
     }
 }

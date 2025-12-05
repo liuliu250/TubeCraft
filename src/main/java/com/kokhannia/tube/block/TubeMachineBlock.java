@@ -5,8 +5,11 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
+import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
+import net.minecraft.world.ItemInteractionResult;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
@@ -31,9 +34,16 @@ public class TubeMachineBlock extends RotatedPillarBlock {
     }
 
     @Override
-    protected InteractionResult useWithoutItem(BlockState state, Level level, BlockPos pos, Player player, BlockHitResult hitResult) {
-        level.playSound(player, pos, SoundEvents.PLAYER_LEVELUP, SoundSource.BLOCKS, 1.0f, 1.0f);
-        return InteractionResult.SUCCESS;
+    protected ItemInteractionResult useItemOn(ItemStack stack, BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hitResult) {
+        ItemStack heldItem = player.getItemInHand(hand);
+        if (heldItem.getItem() == ModItems.TUBE.get()) {
+            player.setItemInHand(hand, new ItemStack(ModItems.WATER_TUBE.get(), heldItem.getCount()));
+            level.playSound(player, pos, SoundEvents.BOTTLE_FILL, SoundSource.BLOCKS, 1.0f, 1.0f);
+        } else if (heldItem.getItem() == ModItems.WATER_TUBE.get()) {
+            player.setItemInHand(hand, new ItemStack(ModItems.TUBE.get(), heldItem.getCount()));
+            level.playSound(player, pos, SoundEvents.BOTTLE_EMPTY, SoundSource.BLOCKS, 1.0f, 1.0f);
+        }
+        return ItemInteractionResult.SUCCESS;
     }
 
     @Override
@@ -64,7 +74,7 @@ public class TubeMachineBlock extends RotatedPillarBlock {
                 long now = level.getGameTime();
                 Long last = LAST_SOUND_TICK.get(pos);
                 if (last == null || now - last >= SOUND_COOLDOWN_TICKS) {
-                    entity.playSound(SoundEvents.DROWNED_AMBIENT_WATER, 1.0f, 1.0f);
+                    entity.playSound(SoundEvents.WATER_AMBIENT, 1.0f, 1.0f);
                     LAST_SOUND_TICK.put(pos.immutable(), now);
                 }
             }

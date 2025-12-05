@@ -39,10 +39,10 @@ public class ModItemModelsProvider extends ItemModelProvider {
     protected void registerModels() {
         //samples
 //        basicItem(ModItems.PLASTIC_CHUNK.get());
-        trimmedArmorItem(ModItems.TUBE_HELMET);
-        trimmedArmorItem(ModItems.TUBE_CHESTPLATE);
-        trimmedArmorItem(ModItems.TUBE_LEGGINGS);
-        trimmedArmorItem(ModItems.TUBE_BOOTS);
+//        trimmedArmorItem(ModItems.TUBE_HELMET);
+//        trimmedArmorItem(ModItems.TUBE_CHESTPLATE);
+//        trimmedArmorItem(ModItems.TUBE_LEGGINGS);
+//        trimmedArmorItem(ModItems.TUBE_BOOTS);
     }
 
     private void trimmedArmorItem(DeferredItem<ArmorItem> item) {

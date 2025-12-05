@@ -2,11 +2,8 @@ package com.kokhannia.tube;
 
 import com.kokhannia.tube.datagen.*;
 import net.minecraft.core.HolderLookup;
-import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.loot.LootTableProvider;
-import net.minecraft.data.recipes.RecipeProvider;
-import net.minecraft.world.level.storage.loot.parameters.LootContextParamSet;
 import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -19,10 +16,10 @@ import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 @EventBusSubscriber(modid = TubeCraft.MOD_ID)
-public class ModDataGenerator {
+public class DataGenerator {
     @SubscribeEvent
     public static void gatherData(GatherDataEvent event) {
-        DataGenerator generator = event.getGenerator();
+        net.minecraft.data.DataGenerator generator = event.getGenerator();
         PackOutput packOutput = generator.getPackOutput();
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
@@ -34,6 +31,8 @@ public class ModDataGenerator {
         BlockTagsProvider blockTagsProvider = new ModBlockTagsProvider(packOutput, lookupProvider, existingFileHelper);
         generator.addProvider(event.includeServer(), blockTagsProvider);
         generator.addProvider(event.includeServer(), new ModItemTagsProvider(packOutput, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
+
+        generator.addProvider(event.includeServer(), new ModWorldGenProvider(packOutput, lookupProvider));
 
         generator.addProvider(event.includeClient(), new ModEnUsLangProvider(packOutput));
         generator.addProvider(event.includeClient(), new ModZhCnLangProvider(packOutput));

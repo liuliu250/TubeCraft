@@ -1,10 +1,10 @@
 package com.kokhannia.tube.custom;
 
 import com.kokhannia.tube.TubeCraft;
+import com.kokhannia.tube.block.GravityBlock;
 import com.kokhannia.tube.block.TubeMachineBlock;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
@@ -18,8 +18,16 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(TubeCraft.MOD_ID);
 
     public static final DeferredBlock<Block> PLASTIC_GRAVEL = registerBlock("plastic_gravel",
-            () -> new Block(Block.Properties.ofFullCopy(Blocks.GRAVEL)
-                    ));
+            () -> new GravityBlock(BlockBehaviour.Properties.of()
+                    .strength(0.6f, 0.7f)
+                    .sound(SoundType.GRAVEL)
+                    .requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> NETHER_PLASTIC_GRAVEL = registerBlock("nether_plastic_gravel",
+            () -> new GravityBlock(BlockBehaviour.Properties.of()
+                    .strength(0.6f, 0.7f)
+                    .sound(SoundType.GRAVEL)
+                    .requiresCorrectToolForDrops()));
 
     public static final DeferredBlock<Block> TUBE_BLOCK = registerBlock("tube_block",
             () -> new Block(Block.Properties.of()

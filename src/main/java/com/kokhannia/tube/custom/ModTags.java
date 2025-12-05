@@ -11,6 +11,8 @@ public class ModTags {
 
     public static final TagKey<Block> NEEDS_TUBE_TOOL = Blocks.create("minecraft", "needs_tube_tool");
     public static final TagKey<Block> INCORRECT_FOR_TUBE_TOOL = Blocks.create("minecraft", "incorrect_for_tube_tool");
+    public static final TagKey<Block> GRAVEL_ORE_REPLACEABLES = Blocks.create("minecraft", "gravel_ore_replaceables");
+    public static final TagKey<Block> NETHER_GRAVEL_ORE_REPLACEABLES = Blocks.create("minecraft", "nether_gravel_ore_replaceables");
 
     public static class Blocks {
         public static TagKey<Block> create(String namespace, String name) {
