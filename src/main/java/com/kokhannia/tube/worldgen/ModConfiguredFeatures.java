@@ -30,8 +30,8 @@ public class ModConfiguredFeatures {
                 OreConfiguration.target(oReplaceables, ModBlocks.PLASTIC_GRAVEL.get().defaultBlockState())
 //                OreConfiguration.target(oReplaceables, ModBlocks.DEEP_PLASTIC_GRAVEL.get().defaultBlockState())
         );//deepslate version added here if needed
-        register(context, O_PLASTIC_GRAVEL_KEY, Feature.ORE, new OreConfiguration(overworldPlasticGravels, 16));
-        register(context, N_PLASTIC_GRAVEL_KEY, Feature.ORE, new OreConfiguration(nReplaceables, ModBlocks.PLASTIC_GRAVEL.get().defaultBlockState(), 24));
+        register(context, O_PLASTIC_GRAVEL_KEY, Feature.ORE, new OreConfiguration(overworldPlasticGravels, 10));
+        register(context, N_PLASTIC_GRAVEL_KEY, Feature.ORE, new OreConfiguration(nReplaceables, ModBlocks.PLASTIC_GRAVEL.get().defaultBlockState(), 6));
     }
 
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {;

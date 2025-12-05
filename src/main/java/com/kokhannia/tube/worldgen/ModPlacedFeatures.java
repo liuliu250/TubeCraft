@@ -24,11 +24,11 @@ public class ModPlacedFeatures {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
         register(context, PLASTIC_GRAVEL_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.O_PLASTIC_GRAVEL_KEY),
-                ModOrePlacement.commonOrePlacement(16, HeightRangePlacement.uniform(
+                ModOrePlacement.commonOrePlacement(20, HeightRangePlacement.uniform(
                         VerticalAnchor.absolute(-64), VerticalAnchor.absolute(80)
                 )));
         register(context, NETHER_PLASTIC_GRAVEL_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.N_PLASTIC_GRAVEL_KEY),
-                ModOrePlacement.commonOrePlacement(16, HeightRangePlacement.uniform(
+                ModOrePlacement.commonOrePlacement(15, HeightRangePlacement.uniform(
                         VerticalAnchor.absolute(6), VerticalAnchor.absolute(128)
                 )));
     }
