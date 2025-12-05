@@ -45,10 +45,10 @@ public class ModItemModelsProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.TUBE_BOOTS);
     }
 
-    private void trimmedArmorItem(DeferredItem<ArmorItem> itemDeferredItem) {
+    private void trimmedArmorItem(DeferredItem<ArmorItem> item) {
         final String MOD_ID = TubeCraft.MOD_ID; // Change this to your mod id
 
-        ArmorItem armorItem = itemDeferredItem.get();
+        ArmorItem armorItem = item.get();
         trimMaterials.forEach((trimMaterial, value) -> {
             float trimValue = value;
 
@@ -78,11 +78,11 @@ public class ModItemModelsProvider extends ItemModelProvider {
                     .texture("layer1", trimResLoc);
 
             // Non-trimmed armorItem file (normal variant)
-            this.withExistingParent(itemDeferredItem.getId().getPath(), mcLoc("item/generated"))
+            this.withExistingParent(item.getId().getPath(), mcLoc("item/generated"))
                     .override()
                     .model(new ModelFile.UncheckedModelFile(trimNameResLoc.getNamespace() + ":item/" + trimNameResLoc.getPath()))
-                    .predicate(mcLoc("trim_type"), trimValue).end()
-                    .texture("layer0", ResourceLocation.fromNamespaceAndPath(MOD_ID, "item/" + itemDeferredItem.getId().getPath()));
+                    .predicate(ResourceLocation.parse("trim_type"), trimValue).end()
+                    .texture("layer0", ResourceLocation.fromNamespaceAndPath(MOD_ID, "item/" + item.getId().getPath()));
         });
     }
 
