@@ -22,15 +22,25 @@ public class CreativeTabs {
                     .displayItems(((parameters, output) -> {
                         output.accept(ModItems.PLASTIC_CHUNK.get());
                         output.accept(ModItems.PLASTIC_PLATE.get());
+
                         output.accept(ModItems.WATER_TUBE.get());
                         output.accept(ModItems.TUBE.get());
                         output.accept(ModItems.HARDENED_TUBE.get());
+
                         output.accept(ModBlocks.PLASTIC_GRAVEL);
                         output.accept(ModBlocks.TUBE_BLOCK);
+
                         output.accept(ModItems.TUBE_HELMET.get());
                         output.accept(ModItems.TUBE_CHESTPLATE.get());
                         output.accept(ModItems.TUBE_LEGGINGS.get());
                         output.accept(ModItems.TUBE_BOOTS.get());
+
+                        output.accept(ModItems.TUBE_SWORD.get());
+                        output.accept(ModItems.TUBE_PICKAXE.get());
+                        output.accept(ModItems.TUBE_AXE.get());
+                        output.accept(ModItems.TUBE_SHOVEL.get());
+                        output.accept(ModItems.TUBE_HOE.get());
+
                         output.accept(ModItems.CHARCOAL_CALCULI.get());
                     }))
                     .build()

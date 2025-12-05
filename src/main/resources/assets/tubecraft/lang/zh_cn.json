@@ -1,21 +1,32 @@
 {
   "itemGroup.tubecraft_tab": "水管工艺",
+
   "item.tubecraft.material.plastic_chunk": "塑料块",
+  "item.tubecraft.material.plastic_plate": "塑料板",
+
   "item.tubecraft.tube.tube": "管子",
   "item.tubecraft.tube.water_tube": "水管",
+  "item.tubecraft.tube.hardened_tube": "硬化管子",
+
   "block.tubecraft.plastic_gravel": "塑料沙砾",
   "block.tubecraft.tube_block": "管道方块",
-  "item.tubecraft.tube.hardened_tube": "硬化管子",
-  "item.tubecraft.material.plastic_plate": "塑料板",
+
   "item.tubecraft.armor.tube_helmet": "管道头盔",
   "item.tubecraft.armor.tube_chestplate": "管道胸甲",
   "item.tubecraft.armor.tube_leggings": "管道护腿",
   "item.tubecraft.armor.tube_boots": "管道靴子",
+
+  "item.tubecraft.tool.tube_sword": "管剑",
+  "item.tubecraft.tool.tube_pickaxe": "管镐",
+  "item.tubecraft.tool.tube_axe": "管斧",
+  "item.tubecraft.tool.tube_shovel": "管铲",
+  "item.tubecraft.tool.tube_hoe": "管锄",
+
   "item.tubecraft.material.charcoal_calculi": "木炭结石",
 
   "upgrade.tubecraft.plastic_upgrade": "塑料升级",
-    "item.tubecraft.smithing_template.plastic_upgrade.additions_slot_description": "添加塑料板",
-    "item.tubecraft.smithing_template.plastic_upgrade.applies_to": "管子",
-    "item.tubecraft.smithing_template.plastic_upgrade.base_slot_description": "添加普通管子",
-    "item.tubecraft.smithing_template.plastic_upgrade.ingredients": "下界合金锭"
+  "item.tubecraft.smithing_template.plastic_upgrade.additions_slot_description": "添加塑料板",
+  "item.tubecraft.smithing_template.plastic_upgrade.applies_to": "管子",
+  "item.tubecraft.smithing_template.plastic_upgrade.base_slot_description": "添加普通管子",
+  "item.tubecraft.smithing_template.plastic_upgrade.ingredients": "下界合金锭"
 }

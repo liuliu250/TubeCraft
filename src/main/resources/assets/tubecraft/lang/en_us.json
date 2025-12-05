@@ -1,16 +1,27 @@
 {
   "itemGroup.tubecraft_tab": "TubeCraft",
+
   "item.tubecraft.material.plastic_chunk": "Plastic Chunk",
+  "item.tubecraft.material.plastic_plate": "Plastic Plate",
+
   "item.tubecraft.tube.tube": "Tube",
   "item.tubecraft.tube.water_tube": "Water Tube",
+  "item.tubecraft.tube.hardened_tube": "Hardened Tube",
+
   "block.tubecraft.plastic_gravel": "Plastic Gravel",
   "block.tubecraft.tube_block": "Tube Block",
-  "item.tubecraft.tube.hardened_tube": "Hardened Tube",
-  "item.tubecraft.material.plastic_plate": "Plastic Plate",
+
   "item.tubecraft.armor.tube_helmet": "Tube Helmet",
   "item.tubecraft.armor.tube_chestplate": "Tube Chestplate",
   "item.tubecraft.armor.tube_leggings": "Tube Leggings",
   "item.tubecraft.armor.tube_boots": "Tube Boots",
+
+  "item.tubecraft.tool.tube_sword": "Tube Sword",
+  "item.tubecraft.tool.tube_pickaxe": "Tube Pickaxe",
+  "item.tubecraft.tool.tube_axe": "Tube Axe",
+  "item.tubecraft.tool.tube_shovel": "Tube Shovel",
+  "item.tubecraft.tool.tube_hoe": "Tube Hoe",
+
   "item.tubecraft.material.charcoal_calculi": "Charcoal Calculi",
 
   "upgrade.tubecraft.plastic_upgrade": "Plastic Upgrade",

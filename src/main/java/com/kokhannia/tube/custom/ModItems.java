@@ -1,9 +1,7 @@
 package com.kokhannia.tube.custom;
 
 import com.kokhannia.tube.TubeCraft;
-import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -31,23 +29,53 @@ public class ModItems {
 
     public static final DeferredItem<ArmorItem> TUBE_HELMET = ITEMS.register("armor/tube_helmet",
             () -> new ArmorItem(ModArmorMaterials.TUBE, ArmorItem.Type.HELMET, new Item.Properties()
+                    .rarity(Rarity.RARE)
                     .fireResistant()
                     .durability(ArmorItem.Type.HELMET.getDurability(46))));
     public static final DeferredItem<ArmorItem> TUBE_CHESTPLATE = ITEMS.register("armor/tube_chestplate",
             () -> new ArmorItem(ModArmorMaterials.TUBE, ArmorItem.Type.CHESTPLATE, new Item.Properties()
+                    .rarity(Rarity.RARE)
                     .fireResistant()
                     .durability(ArmorItem.Type.CHESTPLATE.getDurability(46))));
     public static final DeferredItem<ArmorItem> TUBE_LEGGINGS = ITEMS.register("armor/tube_leggings",
             () -> new ArmorItem(ModArmorMaterials.TUBE, ArmorItem.Type.LEGGINGS, new Item.Properties()
+                    .rarity(Rarity.RARE)
                     .fireResistant()
                     .durability(ArmorItem.Type.LEGGINGS.getDurability(46))));
     public static final DeferredItem<ArmorItem> TUBE_BOOTS = ITEMS.register("armor/tube_boots",
             () -> new ArmorItem(ModArmorMaterials.TUBE, ArmorItem.Type.BOOTS, new Item.Properties()
+                    .rarity(Rarity.RARE)
                     .fireResistant()
                     .durability(ArmorItem.Type.BOOTS.getDurability(46))));
 
     public static final DeferredItem<Item> CHARCOAL_CALCULI = ITEMS.register("material/charcoal_calculi",
             () -> new ModFuelItem(new Item.Properties(), 3200));
+
+    public static final DeferredItem<SwordItem> TUBE_SWORD = ITEMS.register("tool/tube_sword",
+            () -> new SwordItem(ModTiers.TUBE, new Item.Properties()
+                    .rarity(Rarity.RARE)
+                    .attributes(SwordItem.createAttributes(ModTiers.TUBE, 6.0f, -2.2f))
+                    .fireResistant()));
+    public static final DeferredItem<PickaxeItem> TUBE_PICKAXE = ITEMS.register("tool/tube_pickaxe",
+            () -> new PickaxeItem(ModTiers.TUBE, new Item.Properties()
+                    .rarity(Rarity.RARE)
+                    .attributes(PickaxeItem.createAttributes(ModTiers.TUBE, 1.0f, -2.6f))
+                    .fireResistant()));
+    public static final DeferredItem<AxeItem> TUBE_AXE = ITEMS.register("tool/tube_axe",
+            () -> new AxeItem(ModTiers.TUBE, new Item.Properties()
+                    .rarity(Rarity.RARE)
+                    .attributes(AxeItem.createAttributes(ModTiers.TUBE, 8.0f, -2.8f))
+                    .fireResistant()));
+    public static final DeferredItem<ShovelItem> TUBE_SHOVEL = ITEMS.register("tool/tube_shovel",
+            () -> new ShovelItem(ModTiers.TUBE, new Item.Properties()
+                    .rarity(Rarity.RARE)
+                    .attributes(ShovelItem.createAttributes(ModTiers.TUBE, 1.5f, -2.8f))
+                    .fireResistant()));
+    public static final DeferredItem<HoeItem> TUBE_HOE = ITEMS.register("tool/tube_hoe",
+            () -> new HoeItem(ModTiers.TUBE, new Item.Properties()
+                    .rarity(Rarity.RARE)
+                    .attributes(HoeItem.createAttributes(ModTiers.TUBE, -4f, 0.5f))
+                    .fireResistant()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
