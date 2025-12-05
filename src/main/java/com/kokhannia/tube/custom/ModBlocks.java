@@ -1,10 +1,12 @@
 package com.kokhannia.tube.custom;
 
 import com.kokhannia.tube.TubeCraft;
+import com.kokhannia.tube.block.TubeMachineBlock;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -21,6 +23,13 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> TUBE_BLOCK = registerBlock("tube_block",
             () -> new Block(Block.Properties.of()
+                    .strength(1.0f, 2.0f)
+                    .sound(SoundType.METAL)
+                    .requiresCorrectToolForDrops()
+            ));
+
+    public static final DeferredBlock<Block> TUBE_MACHINE = registerBlock("tube_machine",
+            () -> new TubeMachineBlock(BlockBehaviour.Properties.of()
                     .strength(1.0f, 2.0f)
                     .sound(SoundType.METAL)
                     .requiresCorrectToolForDrops()

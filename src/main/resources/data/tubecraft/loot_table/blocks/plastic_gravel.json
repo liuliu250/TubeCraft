@@ -88,7 +88,7 @@
                       "enchantment": "minecraft:fortune"
                     }
                   ],
-                  "name": "tubecraft:tube"
+                  "name": "tubecraft:tube/tube"
                 },
                 {
                   "type": "minecraft:item",
