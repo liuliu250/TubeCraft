@@ -21,7 +21,9 @@ tasks.named('wrapper', Wrapper).configure {
     // (Verify by checking gradle/wrapper/gradle-wrapper.properties to see if distributionUrl now points to `-all`)
     distributionType = Wrapper.DistributionType.BIN
 }
-
+tasks.withType(Copy).all {
+    duplicatesStrategy 'exclude'
+}
 version = mod_version
 group = mod_group_id
 

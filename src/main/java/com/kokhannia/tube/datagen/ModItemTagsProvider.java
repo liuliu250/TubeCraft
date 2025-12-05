@@ -2,11 +2,13 @@ package com.kokhannia.tube.datagen;
 
 import com.kokhannia.tube.TubeCraft;
 import com.kokhannia.tube.custom.ModItems;
+import com.kokhannia.tube.custom.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
@@ -37,5 +39,16 @@ public class ModItemTagsProvider extends ItemTagsProvider {
                 .add(ModItems.TUBE_CHESTPLATE.get())
                 .add(ModItems.TUBE_LEGGINGS.get())
                 .add(ModItems.TUBE_BOOTS.get());
+        tag(ItemTags.SWORDS)
+                .add(ModItems.TUBE_SWORD.get());
+        tag(ItemTags.PICKAXES)
+                .add(ModItems.TUBE_PICKAXE.get());
+        tag(ItemTags.AXES)
+                .add(ModItems.TUBE_AXE.get());
+        tag(ItemTags.SHOVELS)
+                .add(ModItems.TUBE_SHOVEL.get());
+        tag(ItemTags.HOES)
+                .add(ModItems.TUBE_HOE.get());
+
     }
 }
