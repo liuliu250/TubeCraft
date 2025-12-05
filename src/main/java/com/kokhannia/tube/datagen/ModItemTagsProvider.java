@@ -1,7 +1,7 @@
 package com.kokhannia.tube.datagen;
 
 import com.kokhannia.tube.TubeCraft;
-import com.kokhannia.tube.item.ModItems;
+import com.kokhannia.tube.custom.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.PackOutput;

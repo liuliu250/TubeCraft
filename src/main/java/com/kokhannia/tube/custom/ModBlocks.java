@@ -1,9 +1,7 @@
-package com.kokhannia.tube.block;
+package com.kokhannia.tube.custom;
 
 import com.kokhannia.tube.TubeCraft;
-import com.kokhannia.tube.item.ModItems;
 import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;

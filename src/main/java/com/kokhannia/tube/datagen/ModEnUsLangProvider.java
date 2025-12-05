@@ -1,8 +1,6 @@
 package com.kokhannia.tube.datagen;
 
 import com.kokhannia.tube.TubeCraft;
-import com.kokhannia.tube.block.ModBlocks;
-import com.kokhannia.tube.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.common.data.LanguageProvider;
 

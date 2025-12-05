@@ -1,4 +1,4 @@
-package com.kokhannia.tube.item;
+package com.kokhannia.tube.custom;
 
 import com.kokhannia.tube.TubeCraft;
 import net.minecraft.core.Holder;
@@ -9,7 +9,6 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
-import net.minecraft.world.item.ArmorMaterials;
 import net.minecraft.world.item.crafting.Ingredient;
 
 import java.util.EnumMap;

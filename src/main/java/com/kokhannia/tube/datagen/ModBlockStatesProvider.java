@@ -1,7 +1,6 @@
 package com.kokhannia.tube.datagen;
 
 import com.kokhannia.tube.TubeCraft;
-import com.kokhannia.tube.block.ModBlocks;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;

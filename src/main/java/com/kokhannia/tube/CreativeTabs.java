@@ -1,7 +1,7 @@
 package com.kokhannia.tube;
 
-import com.kokhannia.tube.block.ModBlocks;
-import com.kokhannia.tube.item.ModItems;
+import com.kokhannia.tube.custom.ModBlocks;
+import com.kokhannia.tube.custom.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;

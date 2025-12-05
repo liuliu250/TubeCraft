@@ -1,4 +1,4 @@
-package com.kokhannia.tube.item;
+package com.kokhannia.tube.custom;
 
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;

@@ -1,14 +1,12 @@
 package com.kokhannia.tube.datagen;
 
 import com.kokhannia.tube.TubeCraft;
-import com.kokhannia.tube.block.ModBlocks;
-import com.kokhannia.tube.item.ModItems;
+import com.kokhannia.tube.custom.ModBlocks;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
-import net.minecraft.world.level.block.Blocks;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;

@@ -1,4 +1,4 @@
-package com.kokhannia.tube.item;
+package com.kokhannia.tube.custom;
 
 import com.kokhannia.tube.TubeCraft;
 import net.minecraft.ChatFormatting;

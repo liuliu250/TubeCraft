@@ -1,7 +1,7 @@
 package com.kokhannia.tube;
 
-import com.kokhannia.tube.block.ModBlocks;
-import com.kokhannia.tube.item.ModItems;
+import com.kokhannia.tube.custom.ModBlocks;
+import com.kokhannia.tube.custom.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.level.block.Blocks;

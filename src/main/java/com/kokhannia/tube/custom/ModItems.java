@@ -1,13 +1,14 @@
-package com.kokhannia.tube.item;
+package com.kokhannia.tube.custom;
 
 import com.kokhannia.tube.TubeCraft;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.SwordItem;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
-import static com.kokhannia.tube.item.ModSmithingTemplateItem.*;
+import static com.kokhannia.tube.custom.ModSmithingTemplateItem.*;
 
 public class ModItems {
 
