@@ -9,7 +9,8 @@
   "item.tubecraft.tube.hardened_tube": "硬化管子",
 
   "block.tubecraft.plastic_gravel": "塑料沙砾",
-  "block.tubecraft.tube_block": "管道方块",
+  "block.tubecraft.tube_block": "管道块",
+  "block.tubecraft.tube_machine": "管道机",
 
   "item.tubecraft.armor.tube_helmet": "管道头盔",
   "item.tubecraft.armor.tube_chestplate": "管道胸甲",
@@ -21,6 +22,7 @@
   "item.tubecraft.tool.tube_axe": "管斧",
   "item.tubecraft.tool.tube_shovel": "管铲",
   "item.tubecraft.tool.tube_hoe": "管锄",
+  "item.tubecraft.tool.tube_wand": "管杖",
 
   "item.tubecraft.material.charcoal_calculi": "木炭结石",
 

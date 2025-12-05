@@ -29,6 +29,7 @@ public class CreativeTabs {
 
                         output.accept(ModBlocks.PLASTIC_GRAVEL);
                         output.accept(ModBlocks.TUBE_BLOCK);
+                        output.accept(ModBlocks.TUBE_MACHINE);
 
                         output.accept(ModItems.TUBE_HELMET.get());
                         output.accept(ModItems.TUBE_CHESTPLATE.get());
@@ -42,6 +43,8 @@ public class CreativeTabs {
                         output.accept(ModItems.TUBE_HOE.get());
 
                         output.accept(ModItems.CHARCOAL_CALCULI.get());
+
+                        output.accept(ModItems.TUBE_WAND.get());
                     }))
                     .build()
     );

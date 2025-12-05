@@ -10,6 +10,7 @@
 
   "block.tubecraft.plastic_gravel": "Plastic Gravel",
   "block.tubecraft.tube_block": "Tube Block",
+  "block.tubecraft.tube_machine": "Tube Machine",
 
   "item.tubecraft.armor.tube_helmet": "Tube Helmet",
   "item.tubecraft.armor.tube_chestplate": "Tube Chestplate",
@@ -21,6 +22,7 @@
   "item.tubecraft.tool.tube_axe": "Tube Axe",
   "item.tubecraft.tool.tube_shovel": "Tube Shovel",
   "item.tubecraft.tool.tube_hoe": "Tube Hoe",
+  "item.tubecraft.tool.tube_wand": "Tube Wand",
 
   "item.tubecraft.material.charcoal_calculi": "Charcoal Calculi",
 

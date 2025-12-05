@@ -1,6 +1,7 @@
 package com.kokhannia.tube.custom;
 
 import com.kokhannia.tube.TubeCraft;
+import com.kokhannia.tube.item.WandItem;
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -75,6 +76,12 @@ public class ModItems {
             () -> new HoeItem(ModTiers.TUBE, new Item.Properties()
                     .rarity(Rarity.RARE)
                     .attributes(HoeItem.createAttributes(ModTiers.TUBE, -4f, 0.5f))
+                    .fireResistant()));
+
+    public static final DeferredItem<WandItem> TUBE_WAND = ITEMS.register("tool/tube_wand",
+            () -> new WandItem(new Item.Properties()
+                    .durability(64)
+                    .rarity(Rarity.UNCOMMON)
                     .fireResistant()));
 
     public static void register(IEventBus eventBus) {
