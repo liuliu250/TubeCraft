@@ -1,6 +1,7 @@
 package com.kokhannia.tube;
 
 import com.kokhannia.tube.custom.ModBlocks;
+import com.kokhannia.tube.custom.ModDataComponents;
 import com.kokhannia.tube.custom.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -33,6 +34,7 @@ public class TubeCraft {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         CreativeTabs.register(modEventBus);
+        ModDataComponents.register(modEventBus);
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (TubeCraft) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.

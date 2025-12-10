@@ -1,17 +1,22 @@
 package com.kokhannia.tube.item;
 
 import com.kokhannia.tube.custom.ModBlocks;
+import com.kokhannia.tube.custom.ModDataComponents;
+import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 
+import java.util.List;
 import java.util.Map;
 
 public class WandItem extends Item {
@@ -41,8 +46,21 @@ public class WandItem extends Item {
                 level.playSound(null, context.getClickedPos(), SoundEvents.GRINDSTONE_USE, SoundSource.BLOCKS);
             }
             return InteractionResult.sidedSuccess(level.isClientSide());
+        } else {
+            level.playSound(null, context.getClickedPos(), SoundEvents.PLAYER_LEVELUP,SoundSource.BLOCKS);
+            context.getItemInHand().set(ModDataComponents.COORDINATES, context.getClickedPos());
         }
 
         return super.useOn(context);
     }
+
+    @Override
+    public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+
+        if(stack.get(ModDataComponents.COORDINATES) != null) {
+            tooltipComponents.add(Component.literal("Last block changed at: " + stack.get(ModDataComponents.COORDINATES)));
+        }
+
+    }
+
 }
